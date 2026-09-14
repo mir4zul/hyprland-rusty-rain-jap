@@ -1,5 +1,7 @@
 # hyprland-rusty-rain-jap
 
+Version **0.1.0** — first release.
+
 ![Japanese green rain with white heads](assets/japanese-rain.png)
 
 Live fullscreen rain inside the DMS session lock. It uses the half-width Japanese character set from `rusty-rain 0.3.4 -c jap -C green -H white -s`, green trails, white heads and fading tails. This is a Qt Quick rendering of that style, not the rusty-rain executable or a video.
