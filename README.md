@@ -1,5 +1,7 @@
 # hyprland-rusty-rain-jap
 
+![Japanese green rain with white heads](assets/japanese-rain.png)
+
 Live fullscreen rain inside the DMS session lock. It uses the half-width Japanese character set from `rusty-rain 0.3.4 -c jap -C green -H white -s`, green trails, white heads and fading tails. This is a Qt Quick rendering of that style, not the rusty-rain executable or a video.
 
 A key, click, scroll or mouse movement dismisses the rain and reveals the existing DMS password prompt. Dismissing the animation does not unlock the session. The animation starts 60 seconds after each lock. Unlocking before then cancels the timer. Monitor power-off on lock and post-lock display timeouts are disabled so the rain stays visible.
